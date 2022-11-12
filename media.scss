@@ -5,6 +5,7 @@
 /*380*/
 /*375*/
 /*360*/
+
 /*320*/
 @import "style";
 @media (max-width: 1140px) {
@@ -737,6 +738,12 @@
   }
 }
 @media (max-width: 361px) {
+  }
+  #burgerMenu:checked~.header--burger{
+    display: none;
+  }
+}
+@media (max-width: 320px) {
   #header .header {
     padding: 22px 0;
   }
