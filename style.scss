@@ -1,5 +1,4 @@
 @import "reset";
-@import "media";
 
 #Collections {
   background: black;
@@ -54,7 +53,6 @@
   background: black;
 
   .shop {
-
     &-_logo {
       padding: 204px 0 0 0;
       @include font-family;
@@ -100,18 +98,20 @@
       @include input;
       color: #FEAE51;
     }
-    &-_margin{
+
+    &-_margin {
     }
 
     &__menu {
       &--img {
         border: 1px solid #A6A6A6;
         width: 311px;
-        margin: 0 auto;
+        margin: 30px auto;
         border-radius: 26px;
         padding: 18px 0 0 0;
 
-        img {
+        &__image {
+          width: 284px;
           margin: 0 auto;
           display: flex;
           justify-content: center;
@@ -137,7 +137,6 @@
 
     &-_cristal {
       @include display;
-
     }
 
     &--icon {
@@ -147,25 +146,26 @@
         width: 84px;
       }
     }
-    &-_icon{
-      color: white;
 
+    &-_icon {
+      color: white;
     }
 
     &-_number1 {
       @include number;
     }
-
     &--icon__text {
       display: flex;
       align-items: center;
       justify-content: space-between;
       width: 50px;
     }
-
     &--menu__logo {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    &-_btn3 {
+      @include leader;
     }
   }
 }

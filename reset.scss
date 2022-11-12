@@ -157,6 +157,20 @@
   margin: 64px 0 0 0;
   border: 1px solid #A0A0A0;
 }
+@mixin leader{
+  display: flex;
+  justify-content: center;
+  margin: 125px auto;
+  align-items: center;
+  font-family: 'Inter',sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 11px 30px;
+  background: none;
+  border: 1px solid #FFFFFF;
+  border-radius: 36px;
+}
 
 
 

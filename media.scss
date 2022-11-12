@@ -1,0 +1,207 @@
+@import "style";
+@media(max-width: 1140px){
+  #shop .shop--menu__logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 1024px) {
+  #shop .shop__menu--img {
+    width: 310px;
+  }
+  
+}
+@media (max-width: 992px) {
+  #shop .shop__menu--img__image {
+    width: 210px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  #shop .shop__menu--img {
+    width: 267px;
+  }
+  #shop .shop-_line {
+    width: 230px;
+  }
+  #shop .shop-_logotext {
+    width: 204px;
+  }
+
+  #shop .shop-_tittle {
+    font-size: 12px;
+  }
+  #shop .shop-_text1 {
+    width: 207px;
+  }
+  #shop .shop--menu__text {
+    font-size: 15px;
+  }#shop .shop-_cristal {
+     width: 220px;
+   }
+
+
+}
+@media (max-width: 768px) {
+
+  #Collections .collections-_textP {
+    font-size: 10px;
+    padding: 0 0 10px 0;
+  }
+  #Collections .collections-_logo {
+    font-size: 25px;
+
+  }
+  #Collections .collections-_btn {
+    font-size: 8px;
+  }
+  #shop .shop--menu__logo {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #shop .shop-_btn {
+    font-size: 10px;
+  }
+
+  #shop .shop-_btn2 {
+    width: 106px;
+    height: 50px;
+  }
+
+}
+@media (max-width: 576px) {
+  #Collections .collections-_textP {
+    font-size: 7px;
+  }
+  #Collections .collections-_logo {
+    font-size: 12px;
+  }
+  #Collections .collections-_btn {
+    font-size: 6px;
+  }
+  #Collections .collections-_btn {
+    padding: 5px 17px;
+  }
+  #Collections .collections-_texts-_logo {
+    font-size: 15px;
+  }
+
+  #Collections .collections-_texts-_text {
+    font-size: 19px;
+
+  }
+  #shop .shop-_logo {
+    font-size: 15px;
+  }
+  #shop .shop-_text {
+    font-size: 19px;
+  }
+  #shop .shop-_btn {
+    font-size: 6px;
+  }
+  #shop .shop-_btn2 {
+    width: 85px;
+    height: 40px;
+  }
+  #shop .shop__menu--img__image {
+    width: 185px;
+  }
+  #shop .shop-_logotext {
+    width: 180px;
+  }
+  #shop .shop-_textPrice {
+    font-size: 11px;
+  }
+  #shop .shop--menu__text {
+    font-size: 14px;
+  }
+  #shop .shop-_text1 {
+    width: 185px;
+  }
+  #shop .shop__menu--img {
+    width: 210px;
+  }
+  #shop .shop-_line {
+    width: 183px;
+  }
+  #shop .shop-_cristal {
+    width: 183px;
+  }
+
+  #shop .shop-_btn3 {
+    padding: 5px 10px;
+
+  }
+
+
+
+}
+@media (max-width: 450px) {
+  #Collections .collections-_texts-_logo {
+    font-size: 12px;
+  }
+  #Collections .collections-_texts-_text {
+    font-size: 16px;
+  }
+  #Collections .collections-_texts-_text {
+    font-size: 16px;
+  }
+  #Collections .collections-_textP {
+    font-size: 5px;
+  }
+  #Collections .collections-_logo {
+     font-size: 10px;
+   }
+  #Collections .collections-_btn {
+    padding: 2px 3px;
+  }
+  #Collections .collections .swiper-slide img {
+    width: 110%;
+  }
+  #shop .shop-_logo {
+    font-size: 12px;
+  }
+  #shop .shop-_text {
+    font-size: 17px;
+  }
+  #shop .shop__menu--img__image {
+    width: 165px;
+  }
+  #shop .shop-_logotext {
+    width: 165px;
+  }
+  #shop .shop-_tittle {
+    font-size: 10px;
+  }
+  #shop .shop-_text1 {
+    width: 165px;
+  }
+  #shop .shop--menu__text {
+    font-size: 12px;
+  }
+  #shop .shop-_line {
+    width: 170px;
+  }
+  #shop .shop-_cristal {
+    width: 170px;
+  }
+  #shop .shop__menu--img {
+    width: 191px;
+  }
+  #shop .shop-_btn3 {
+    padding: 3px 4px;
+  }
+}
+@media (max-width: 416px) {
+  #Collections .collections-_texts-_logo {
+    font-size: 10px;
+  }
+  #Collections .collections-_texts-_text {
+    font-size: 10px;
+  }
+  #shop .shop--menu__logo {
+    grid-template-columns: 1fr;
+  }
+
+  
+}
