@@ -3,8 +3,9 @@
 #header {
   backdrop-filter: blur(27.5px);
   background: rgba(38, 39, 43, 0.33);
+  position: fixed;
+  width: 100%;
   .header {
-
     @include between;
     padding: 22px 0;
 
@@ -74,39 +75,47 @@
   }
 }
 
-#hero{
-  .hero{
+#hero {
+  .hero {
     padding: 70px 0;
-    &-_title{
+
+    &-_title {
       @include heroText;
       font-size: 20px;
       line-height: 24px;
       color: #EEB563;
-      padding: 0 0 50px 0;
-      &-_img{
+      padding: 30px 0 50px 0;
+
+      &-_img {
         width: 192px;
       }
-      &-_image{
+
+      &-_image {
         width: 318px;
       }
     }
-    &-_text{
+
+    &-_text {
       @include heroText;
       font-size: 96px;
       line-height: 116px;
       color: #FFFFFF;
     }
-    &-_img{
+
+    &-_img {
       padding: 100px 0 200px 0;
       @include heroBetween;
-      &-_image{
+
+      &-_image {
         @include heroBetween;
-        &-_text{
+
+        &-_text {
           @include hero-text;
           text-align: right;
           padding: 0 9px 0 0;
         }
-        &-_ellipse{
+
+        &-_ellipse {
           width: 76px;
           height: 76px;
           border-radius: 50%;
@@ -114,7 +123,8 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          &-_star{
+
+          &-_star {
             clip-path: $clip-part;
             width: 38px;
             height: 38px;
@@ -123,7 +133,7 @@
         }
       }
 
-      &-_img{
+      &-_img {
         width: 346px;
         height: 532px;
         background: linear-gradient(354.73deg, #E4E4A8 2.81%, #5C5C56 104.28%);
@@ -131,69 +141,86 @@
         padding: 0 162px 0 0;
         display: flex;
         align-items: center;
-        &-_image{
+
+        &-_image {
           width: 397px;
         }
       }
-      &-_p{
+
+      &-_p {
         @include hero-text;
         padding: 300px 0 0 0;
       }
     }
-    &-_sites{
-      &-_logo{
+
+    &-_sites {
+      &-_logo {
         @include between;
         align-items: flex-end;
-        h1{
+
+        h1 {
           @include heroLogo;
           font-size: 36px;
         }
-        &-_site{
+
+        &-_site {
           display: flex;
-          &-_image{
+
+          &-_image {
             width: 61px;
           }
-          &-_img{
+
+          &-_img {
             display: flex;
             justify-content: flex-start;
             width: 289px;
           }
-          &-_img-logo{
+
+          &-_img-logo {
             width: 50px;
           }
         }
-        &-_site:nth-child(4){
+
+        &-_site:nth-child(4) {
 
 
         }
       }
-      &-_logo:nth-child(1){
+
+      &-_logo:nth-child(1) {
         @include heroLogo;
         font-size: 40px;
       }
-      &-_image{
+
+      &-_image {
         @include between;
         padding: 45px 0;
-        &-_img1{
+
+        &-_img1 {
           width: 167px;
         }
-        &-_img2{
+
+        &-_img2 {
           width: 223px;
         }
-        &-_img3{
+
+        &-_img3 {
           width: 267px;
         }
-        &-_img4{
+
+        &-_img4 {
           width: 152px;
         }
-        &-_img5{
+
+        &-_img5 {
           width: 106px;
         }
 
       }
     }
-    &-_stars{
-      &-_star{
+
+    &-_stars {
+      &-_star {
         clip-path: $clip-part;
         position: $position;
         width: 22.41px;
@@ -204,7 +231,7 @@
         left: 1010px;
       }
 
-      &-_star1{
+      &-_star1 {
         clip-path: $clip-part;
         position: $position;
         width: 35px;
@@ -214,7 +241,8 @@
         top: 215px;
 
       }
-      &-_star2{
+
+      &-_star2 {
         clip-path: $clip-part;
         position: $position;
         width: 8px;
@@ -223,7 +251,8 @@
         left: 1201px;
         top: 234px;
       }
-      &-_star3{
+
+      &-_star3 {
         clip-path: $clip-part;
         position: $position;
         width: 35px;
@@ -232,7 +261,8 @@
         left: 1101px;
         top: 350px;
       }
-      &-_star4{
+
+      &-_star4 {
         clip-path: $clip-part;
         position: $position;
         width: 30px;
@@ -241,7 +271,8 @@
         left: 266px;
         top: 600px;
       }
-      &-_star5{
+
+      &-_star5 {
         clip-path: $clip-part;
         position: $position;
         top: 1303px;
@@ -250,7 +281,8 @@
         height: 51px;
         background: #FFC163;
       }
-      &-_line{
+
+      &-_line {
         border: $border;
         border-radius: $border-radius;
         position: absolute;
@@ -259,7 +291,8 @@
         left: 296px;
         top: 418px;
       }
-      &-_line1{
+
+      &-_line1 {
         border: $border;
         position: absolute;
         width: 211px;
@@ -269,7 +302,8 @@
         border-radius: 39px;
         transform: rotate(-90deg);
       }
-      &-_line2{
+
+      &-_line2 {
         border: $border;
         position: absolute;
         width: 380px;
@@ -279,7 +313,8 @@
         border-radius: 70px;
         transform: rotate(-90deg);
       }
-      &-_line3{
+
+      &-_line3 {
         border: $border;
         border-radius: $border-radius;
         position: absolute;
@@ -288,7 +323,8 @@
         left: 1096px;
         top: 748px;
       }
-      &-_line4{
+
+      &-_line4 {
         border: $border;
         position: absolute;
         width: 89.44px;
@@ -298,7 +334,8 @@
         border-radius: 39px;
         transform: rotate(179.36deg);
       }
-      &-_line5{
+
+      &-_line5 {
         border: $border;
         border-radius: $border-radius;
         position: absolute;
@@ -307,180 +344,16 @@
         left: 1011px;
         top: 1220px;
       }
-      hr:hover{
+
+      hr:hover {
         background: gold;
       }
     }
-    &-_lines{
-      hr:hover{
+
+    &-_lines {
+      hr:hover {
         border: solid 2px gold;
       }
-
-#Collections {
-  background: black;
-
-  .collections {
-    &-_texts {
-      @include text-collections;
-
-      &-_logo {
-        @include font-family;
-      }
-
-      &-_text {
-        @include inter;
-        justify-content: center;
-      }
-    }
-
-    .swiper {
-      @include swiper;
-    }
-
-    .swiper-slide {
-      @include swiper-slide;
-    }
-
-    .swiper-slide img {
-      @include swiper-slideImg;
-    }
-
-    &-_logo {
-      @include normal;
-    }
-
-    &-_textP {
-      @include center;
-      padding: 1px 0 33px 0;
-    }
-
-    &-_btn {
-      @include btn;
-    }
-
-    &-_menu {
-      position: absolute;
-      margin: 0 0 30px 0;
-    }
-  }
-}
-
-#shop {
-  background: black;
-
-  .shop {
-
-    &-_logo {
-      padding: 204px 0 0 0;
-      @include font-family;
-      text-align: center;
-    }
-
-    &-_text {
-      @include inter;
-      @include between;
-    }
-
-    &-_btn {
-      @include button;
-    }
-
-    &-_btn2 {
-      @include fillter;
-    }
-
-    &-_button1 {
-      @include space;
-
-      &-_icon {
-        padding: 0 0 0 37px;
-      }
-    }
-
-    &-_tittle {
-      padding: 13px 0 10px 0;
-      @include center;
-    }
-
-    &--menu__text {
-      @include width;
-    }
-
-    &-_textPrice {
-      display: flex;
-      @include center;
-    }
-
-    &-_number {
-      @include input;
-      color: #FEAE51;
-    }
-    &-_margin{
-    }
-
-    &__menu {
-      &--img {
-        border: 1px solid #A6A6A6;
-        width: 311px;
-        margin: 0 auto;
-        border-radius: 26px;
-        padding: 18px 0 0 0;
-
-        img {
-          margin: 0 auto;
-          display: flex;
-          justify-content: center;
-        }
-
-      }
-    }
-
-    &-_logotext {
-      @include flex;
-      margin: 0 auto;
-    }
-
-    &-_text1 {
-      @include flex;
-      margin: 0 auto;
-    }
-
-    &-_line {
-      @include line;
-      margin: 0 auto;
-    }
-
-    &-_cristal {
-      @include display;
-
-    }
-
-    &--icon {
-      &__text {
-        display: flex;
-        justify-content: space-between;
-        width: 84px;
-      }
-    }
-    &-_icon{
-      color: white;
-
-    }
-
-    &-_number1 {
-      @include number;
-    }
-
-    &--icon__text {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      width: 50px;
-    }
-
-    &--menu__logo {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
     }
   }
 }
