@@ -10,202 +10,61 @@ body{
   background: #15141A;
 }
 
-@mixin between{
+@mixin footerFlex{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-@mixin textWhite{
+@mixin footerText{
   font-family: 'Roboto',sans-serif;
   font-style: normal;
   font-weight: 700;
+  font-size: 32px;
+  line-height: 70px;
   color: #FFFFFF;
 }
-@mixin menu{
-  text-decoration: none;
-  font-family: 'Inter',sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-}
-$colorWhite: white;
-$backgroundStar: #FF9900;
-@mixin heroText{
-  font-family: 'Inter',sans-serif;
+@mixin footerP{
+  font-family: 'Roboto',sans-serif;
   font-style: normal;
-  font-weight: 500;
-  text-align: center;
-}
-$clip-part: polygon(50% 0%, 66% 35%, 100% 50%, 66% 65%, 50% 100%, 34% 65%, 0 50%, 34% 35%);
-@mixin hero-text {
-  font-family: 'Inter',sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
 }
-@mixin heroBetween{
-  display: flex;
-  justify-content: space-between;
+@mixin footerInput{
+  background: none;
+  border: 1px solid #B5B5B5;
+  border-radius: 9px;
+  padding: 17px 100px 17px 22px;
+  outline: none;
 }
-@mixin heroLogo{
-  font-family: 'Inter',sans-serif;
+@mixin footerButton{
+  background: #FE773B;
+  border-radius: 2px;
+  width: 54px;
+  height: 56px;
+  position: absolute;
+  border: none;
+}
+@mixin footerIcon{
+  color: #FFFFFF;
+  width: 20px;
+  height: 20px;
+}
+@mixin footerS{
+  font-family: 'Roboto',sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
   color: #FFFFFF;
 }
-$position: absolute;
-$border: 1px solid #FFFFFF;
-$border-radius: 50%;
-@mixin font-family{
-  font-family: 'Inter',sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #F1B864;
-}
-@mixin inter{
-  font-family: 'Inter',sans-serif;
-  font-weight: 500;
-  font-size: 32px;
-  color: #FFFFFF;
-
-}
-@mixin text-collections{
-  padding: 0 0 19px 0;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-}
-@mixin space{
-  margin: 88px 0 89px 0;
+@mixin footerStart{
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
-@mixin ShopBetween{
-  display: flex;
-  justify-content: center;
-
-}
-@mixin normal{
-  font-family: 'Inter',sans-serif;
-  font-weight: 600;
-  font-size: 29px;
-  line-height: 35px;
-  color: #FFFFFF;
-}
-@mixin center{
-  display: flex;
-  font-family: 'Inter',sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  color: #FFFFFF;
-}
-
-@mixin column {
+@mixin footerEnd{
   display: flex;
   justify-content: flex-end;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: center;
-}
-@mixin btn{
-  padding: 11px 22px;
-  background: #FE8B46;
-  border: 1px solid #FFFFFF;
-  border-radius: 40px;
-}
-@mixin swiper{
-  width: 100%;
-  height: 100%;
-}
-@mixin swiper-slide{
-  text-align: center;
-  font-size: 18px;
-
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: flex-end;
-}
-@mixin swiper-slideImg{
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-@mixin button{
-  font-family: 'Inter',sans-serif;
-  font-weight: 200;
-  font-size: 20px;
-  color: #FFFFFF;
-  background: none;
-  border: 1px solid;
-  border-radius: 14px;
-  padding: 17px 32px 17px 33px;
-}
-@mixin fillter{
-  width: 161px;
-  height: 63px;
-  color: #FFFFFF;
-  background: #FE8B46;
-  border: 1px solid #FFFFFF;
-  border-radius: 38px;
-}
-@mixin width{
-  font-family: 'Inter',sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #FFFFFF;
-}
-
-@mixin input {
-  font-family: 'Inter',sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 18px;
-  color: #FEAE51;
-}
-@mixin flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 280px;
-}
-@mixin display{
-  padding: 7px 0 0 0;
-  display: flex;
-  justify-content: space-between;
-  width: 284px;
-  margin: 0 auto;
-  align-items: center;
-}
-@mixin number{
-  display: flex;
-  justify-content: space-between;
-  font-family: 'Inter',sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-  color: #F4F4F4;
-}
-@mixin line{
-  width: 284px;
-  height: 0;
-  background: #A0A0A0;
-  margin: 64px 0 0 0;
-  border: 1px solid #A0A0A0;
 }
