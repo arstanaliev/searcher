@@ -1,5 +1,47 @@
 @import "reset";
 
+#footer {
+  .footer {
+    padding: 31px 0;
+
+    &__title {
+      @include footerStart;
+
+      &--logo {
+        width: 300px;
+      }
+
+      &--email {
+        padding: 20px 0 0 0;
+
+        &__text {
+          @include footerText;
+          width: 290px;
+        }
+
+        &__inputs {
+          @include footerEnd;
+          margin: 30px 0 0 0;
+
+          &--input {
+            @include footerP;
+            @include footerInput;
+          }
+
+          &--btn {
+            @include footerButton;
+
+            &__icon {
+              @include footerIcon;
+            }
+          }
+
+          &--btn:hover {
+            background:  #763b00;
+            cursor: pointer;
+          }
+        }
+
 #header {
   backdrop-filter: blur(27.5px);
   background: rgba(38, 39, 43, 0.33);
@@ -350,8 +392,22 @@
       &-_star:hover{
         background: gold;
       }
-    }
 
+      &-_menu {
+        @include footerFlex;
+        &--texts {
+          padding: 20px 0 0 0;
+          width: 230px;
+
+          &__text {
+            @include footerText;
+            @include footerEnd;
+          }
+
+          &__text2 {
+            @include footerText;
+          }
+        }
     &-_input {
       border: 1px solid rgba(255, 255, 255, 0.7);
       border-radius: 41px;
@@ -460,8 +516,43 @@
         &-_image {
           width: 397px;
         }
+      }}
+
+    &--block {
+      @include footerFlex;
+      width: 1150px;
+      padding: 70px 0 0 0;
+
+      &__p {
+        @include footerP;
+        width: 285px;
       }
 
+      &__icons {
+        @include footerFlex;
+        width: 260px;
+
+        &--icon {
+          height: 40px;
+          color: #767676;
+        }
+        &--icon:hover {
+          color: #763b00;
+          cursor: pointer;
+        }
+      }
+
+      &__S {
+        @include footerFlex;
+        width: 130px;
+
+        &--text {
+          @include footerS
+        }
+
+        &--2022 {
+          @include footerP;
+        }
       &-_p {
         @include hero-text;
         padding: 300px 0 0 0;
@@ -672,3 +763,4 @@
     }
   }
 }
+
