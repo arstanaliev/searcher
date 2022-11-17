@@ -8,13 +8,38 @@
 /*320*/
 @import "style";
 
+
 @media (max-width: 1140px) {
+  #hero .hero-_stars-_star2 {
+    left: 1096px;
+  }
+  #hero .hero-_stars-_star3 {
+    left: 963px;
+  }
+  #hero .hero-_stars-_line {
+    left: 169px;
+  }
+  #header .header-_logos-_star {
+    left: 14%;
+  }
+  #hero .hero-_stars-_line2 {
+    left: -15px;
+  }
+  #hero .hero-_stars-_line4 {
+    left: 257px;
+  }
+  #hero .hero-_stars-_line1 {
+    left: 959px;
+  }
+  #hero .hero-_stars-_line3 {
+    left: 950px;
+  }
   #footer .footer__title-_menu--texts__text {
     font-size: 28px;
   }
   #footer .footer__title-_menu--texts__text2 {
     font-size: 28px;
-    }
+  }
   #footer .footer__title--email__text {
     font-size: 28px;
     width: 250px;
@@ -50,60 +75,6 @@
     align-items: center;
     width: 920px;
     padding: 70px 0 0 0;
-  }
-}
-
-@media (max-width: 1024px){
-  #footer .footer__title-_menu--texts {
-    padding: 15px 0 0 0;
-    width: 200px;
-  }
-  #footer .footer__title-_menu--texts__text {
-    font-size: 26px;
-  }
-  #footer .footer__title-_menu--texts__text2 {
-    font-size: 26px;
-  }
-  #footer .footer__title--logo {
-    width: 200px;
-  }
-  #footer .footer__title--email__inputs--input {
-    font-size: 14px;
-    padding: 15px 68px 15px 18px;
-  }
-  #footer .footer--block {
-    width: 850px;
-  }
-}
-
-=======
-
-/*320*/
-@import "style";
-@media (max-width: 1140px) {
-  #hero .hero-_stars-_star2 {
-    left: 1096px;
-  }
-  #hero .hero-_stars-_star3 {
-    left: 963px;
-  }
-  #hero .hero-_stars-_line {
-    left: 169px;
-  }
-  #header .header-_logos-_star {
-    left: 14%;
-  }
-  #hero .hero-_stars-_line2 {
-    left: -15px;
-  }
-  #hero .hero-_stars-_line4 {
-    left: 257px;
-  }
-  #hero .hero-_stars-_line1 {
-    left: 959px;
-  }
-  #hero .hero-_stars-_line3 {
-    left: 950px;
   }
 }
 @media (max-width: 1024px) {
@@ -203,6 +174,26 @@
   #hero .hero-_stars-_star1 {
     left: 125px;
   }
+  #footer .footer__title-_menu--texts {
+    padding: 15px 0 0 0;
+    width: 200px;
+  }
+  #footer .footer__title-_menu--texts__text {
+    font-size: 26px;
+  }
+  #footer .footer__title-_menu--texts__text2 {
+    font-size: 26px;
+  }
+  #footer .footer__title--logo {
+    width: 200px;
+  }
+  #footer .footer__title--email__inputs--input {
+    font-size: 14px;
+    padding: 15px 68px 15px 18px;
+  }
+  #footer .footer--block {
+    width: 850px;
+  }
 }
 @media (max-width: 992px) {
   #header .header-_logos-_star {
@@ -213,275 +204,8 @@
   }
 }
 
-@media (max-width: 768px){
-  #footer .footer__title-_menu--texts__text {
-    font-size: 20px;
-  }
-  #footer .footer__title-_menu--texts__text2 {
-    font-size: 20px;
-    line-height: 25px;
-  }
-  #footer .footer__title-_menu--texts {
-    padding: 12px 0 0 0;
-    width: 130px;
-  }
-  #footer .footer__title--email__text {
-    font-size: 22px;
-    width: 196px;
-    line-height: 50px;
-  }
-  #footer .footer__title--email {
-    padding: 25px 0 0 0;
-  }
-  #footer .footer__title--logo {
-    width: 180px;
-  }
-  #footer .footer__title--email__inputs--input {
-    font-size: 10px;
-    padding: 10px 70px 10px 18px;
-  }
-  #footer .footer__title--email__inputs--btn {
-    height: 41px;
-    width: 43px;
-  }
-  #footer .footer--block {
-    width: 670px;
-  }
-  #footer .footer--block__p {
-    width: 212px;
-    font-size: 11px;
-  }
-  #footer .footer--block__icons--icon {
-    height: 25px;
-  }
-  #footer .footer--block__icons {
-    width: 180px;
-  }
-  #footer .footer--block__S {
-    width: 100px;
-  }
-  #footer .footer--block__S--2022 {
-    font-size: 11px;
-  }
-  #footer .footer--block__S--text {
-    font-size: 36px;
-  }
 
-}
 
-@media (max-width: 576px){
-  #footer .footer__title-_menu--texts__text {
-    font-size: 14px;
-    line-height: 45px;
-  }
-  #footer .footer__title-_menu--texts__text2 {
-    font-size: 14px;
-  }
-  #footer .footer__title-_menu--texts {
-    padding: 5px 0 0 0;
-    width: 90px;
-  }
-  #footer .footer__title--email__text {
-    font-size: 18px;
-    width: 160px;
-    line-height: 32px;
-  }
-  #footer .footer__title--email {
-    padding: 13px 0 0 0;
-  }
-  #footer .footer__title--logo {
-    width: 120px;
-  }
-  #footer .footer__title--email__inputs--input {
-    font-size: 10px;
-    padding: 8px 37px 8px 13px;
-  }
-  #footer .footer__title--email__inputs--btn {
-    height: 37px;
-    width: 37px;
-  }
-  #footer .footer--block {
-    width: 490px;
-  }
-  #footer .footer--block__p {
-    width: 178px;
-    font-size: 10px;
-  }
-  #footer .footer--block__icons--icon {
-    height: 20px;
-  }
-  #footer .footer--block__icons {
-    width: 140px;
-  }
-  #footer .footer--block__S {
-    width: 85px;
-  }
-  #footer .footer--block__S--2022 {
-    font-size: 10px;
-  }
-  #footer .footer--block__S--text {
-    font-size: 30px;
-  }
-}
-
-@media (max-width: 451px){
-  #footer .footer__title-_menu--texts__text2 {
-    font-size: 10px;
-    line-height: 0;
-
-  }
-  #footer .footer__title-_menu--texts__text {
-    font-size: 10px;
-  }
-  #footer .footer__title--email__text {
-    font-size: 13px;
-    width: 116px;
-    line-height: 25px;
-  }
-  #footer .footer__title-_menu--texts {
-    padding: 3px 0 0 0;
-    width: 65px;
-  }
-  #footer .footer__title--logo {
-    width: 95px;
-  }
-  #footer .footer__title--email__inputs--input {
-    font-size: 7px;
-    padding: 4px 26px 4px 10px;
-  }
-  #footer .footer__title--email__inputs--btn {
-    height: 29px;
-    width: 29px;
-  }
-  #footer .footer--block__p {
-    width: 125px;
-    font-size: 7px;
-  }
-  #footer .footer--block {
-    width: 365px;
-  }
-  #footer .footer--block__icons--icon {
-    height: 15px;
-  }
-  #footer .footer--block__icons {
-    width: 100px;
-  }
-  #footer .footer--block__S--2022 {
-    font-size: 7px;
-  }
-  #footer .footer--block__S--text {
-    font-size: 20px;
-  }
-  #footer .footer--block__S {
-    width: 60px;
-  }
-}
-
-@media (max-width: 401px){
-  #footer .footer__title-_menu--texts__text {
-    font-size: 9px;
-    line-height: 39px;
-  }
-  #footer .footer__title-_menu--texts__text2 {
-    font-size: 9px;
-  }
-  #footer .footer__title--email__text {
-    font-size: 11px;
-    width: 98px;
-    line-height: 20px;
-  }
-  #footer .footer__title--logo {
-    width: 80px;
-  }
-  #footer .footer__title-_menu--texts {
-    padding: 0 0 0 0;
-    width: 59px;
-  }
-  #footer .footer__title--email {
-    padding: 10px 0 0 0;
-  }
-  #footer .footer__title--email__inputs--input {
-    font-size: 5px;
-    padding: 2px 30px 2px 10px;
-  }
-  #footer .footer__title--email__inputs--btn {
-    height: 25px;
-    width: 25px;
-  }
-  #footer .footer__title--email__inputs--btn__icon {
-    width: 11px;
-    height: 11px;
-  }
-  #footer .footer--block__p {
-    width: 90px;
-    font-size: 5px;
-    line-height: 10px;
-  }
-  #footer .footer--block {
-    width: 310px;
-  }
-  #footer .footer--block__S--2022 {
-    font-size: 5px;
-  }
-  #footer .footer--block__S--text {
-    font-size: 17px;
-  }
-  #footer .footer--block__S {
-    width: 45px;
-  }
-}
-
-@media (max-width: 320px) {
-  #footer .footer__title-_menu--texts__text2 {
-    font-size: 8px;
-  }
-  #footer .footer__title-_menu--texts__text {
-    font-size: 8px;
-    line-height: 37px;
-  }
-  #footer .footer__title--email__text {
-    font-size: 9px;
-    width: 80px;
-    line-height: 17px;
-  }
-  #footer .footer__title--logo {
-    width: 73px;
-  }
-  #footer .footer__title-_menu--texts {
-    width: 51px;
-  }
-  #footer .footer__title--email__inputs--input {
-    font-size: 3px;
-    padding: 0 34px 0 8px;
-  }
-  #footer .footer--block__p {
-    width: 55px;
-    font-size: 3px;
-    line-height: 6px;
-  }
-  #footer .footer--block__icons--icon {
-    height: 11px;
-  }
-  #footer .footer--block__icons {
-    width: 70px;
-  }
-  #footer .footer--block__S--2022 {
-    font-size: 3px;
-  }
-  #footer .footer--block__S--text {
-    font-size: 13px;
-  }
-  #footer .footer--block__S {
-    width: 29px;
-  }
-  #footer .footer--block {
-    width: 255px;
-  }
-  #footer .footer__title--email__inputs--btn {
-    height: 21px;
-    width: 21px;
-  }
-}
 @media (max-width: 768px) {
   #header .header-_input {
     padding: 12px 70px 12px 20px;
@@ -637,6 +361,58 @@
   }
   #hero .hero-_sites-_image {
     padding: 20px 0;
+  }
+  #footer .footer__title-_menu--texts__text {
+    font-size: 20px;
+  }
+  #footer .footer__title-_menu--texts__text2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  #footer .footer__title-_menu--texts {
+    padding: 12px 0 0 0;
+    width: 130px;
+  }
+  #footer .footer__title--email__text {
+    font-size: 22px;
+    width: 196px;
+    line-height: 50px;
+  }
+  #footer .footer__title--email {
+    padding: 25px 0 0 0;
+  }
+  #footer .footer__title--logo {
+    width: 180px;
+  }
+  #footer .footer__title--email__inputs--input {
+    font-size: 10px;
+    padding: 10px 70px 10px 18px;
+  }
+  #footer .footer__title--email__inputs--btn {
+    height: 41px;
+    width: 43px;
+  }
+  #footer .footer--block {
+    width: 670px;
+  }
+  #footer .footer--block__p {
+    width: 212px;
+    font-size: 11px;
+  }
+  #footer .footer--block__icons--icon {
+    height: 25px;
+  }
+  #footer .footer--block__icons {
+    width: 180px;
+  }
+  #footer .footer--block__S {
+    width: 100px;
+  }
+  #footer .footer--block__S--2022 {
+    font-size: 11px;
+  }
+  #footer .footer--block__S--text {
+    font-size: 36px;
   }
 }
 @media (max-width: 576px) {
@@ -797,6 +573,60 @@
   #hero .hero {
     padding: 80px 0 30px 0;
   }
+  @media (max-width: 576px){
+    #footer .footer__title-_menu--texts__text {
+      font-size: 14px;
+      line-height: 45px;
+    }
+    #footer .footer__title-_menu--texts__text2 {
+      font-size: 14px;
+    }
+    #footer .footer__title-_menu--texts {
+      padding: 5px 0 0 0;
+      width: 90px;
+    }
+    #footer .footer__title--email__text {
+      font-size: 18px;
+      width: 160px;
+      line-height: 32px;
+    }
+    #footer .footer__title--email {
+      padding: 13px 0 0 0;
+    }
+    #footer .footer__title--logo {
+      width: 120px;
+    }
+    #footer .footer__title--email__inputs--input {
+      font-size: 10px;
+      padding: 8px 37px 8px 13px;
+    }
+    #footer .footer__title--email__inputs--btn {
+      height: 37px;
+      width: 37px;
+    }
+    #footer .footer--block {
+      width: 490px;
+    }
+    #footer .footer--block__p {
+      width: 178px;
+      font-size: 10px;
+    }
+    #footer .footer--block__icons--icon {
+      height: 20px;
+    }
+    #footer .footer--block__icons {
+      width: 140px;
+    }
+    #footer .footer--block__S {
+      width: 85px;
+    }
+    #footer .footer--block__S--2022 {
+      font-size: 10px;
+    }
+    #footer .footer--block__S--text {
+      font-size: 30px;
+    }
+  }
 }
 @media (max-width: 451px) {
   #hero .hero-_text {
@@ -927,6 +757,56 @@
     width: 10px;
     height: 10px;
   }
+  #footer .footer__title-_menu--texts__text2 {
+    font-size: 10px;
+    line-height: 0;
+
+  }
+  #footer .footer__title-_menu--texts__text {
+    font-size: 10px;
+  }
+  #footer .footer__title--email__text {
+    font-size: 13px;
+    width: 116px;
+    line-height: 25px;
+  }
+  #footer .footer__title-_menu--texts {
+    padding: 3px 0 0 0;
+    width: 65px;
+  }
+  #footer .footer__title--logo {
+    width: 95px;
+  }
+  #footer .footer__title--email__inputs--input {
+    font-size: 7px;
+    padding: 4px 26px 4px 10px;
+  }
+  #footer .footer__title--email__inputs--btn {
+    height: 29px;
+    width: 29px;
+  }
+  #footer .footer--block__p {
+    width: 125px;
+    font-size: 7px;
+  }
+  #footer .footer--block {
+    width: 365px;
+  }
+  #footer .footer--block__icons--icon {
+    height: 15px;
+  }
+  #footer .footer--block__icons {
+    width: 100px;
+  }
+  #footer .footer--block__S--2022 {
+    font-size: 7px;
+  }
+  #footer .footer--block__S--text {
+    font-size: 20px;
+  }
+  #footer .footer--block__S {
+    width: 60px;
+  }
 }
 @media (max-width: 415px) {
   #hero .hero-_img-_p {
@@ -949,8 +829,58 @@
     left: 88px;
   }
 }
-
 @media (max-width: 401px) {
+  #footer .footer__title-_menu--texts__text {
+    font-size: 9px;
+    line-height: 39px;
+  }
+  #footer .footer__title-_menu--texts__text2 {
+    font-size: 9px;
+  }
+  #footer .footer__title--email__text {
+    font-size: 11px;
+    width: 98px;
+    line-height: 20px;
+  }
+  #footer .footer__title--logo {
+    width: 80px;
+  }
+  #footer .footer__title-_menu--texts {
+    padding: 0 0 0 0;
+    width: 59px;
+  }
+  #footer .footer__title--email {
+    padding: 10px 0 0 0;
+  }
+  #footer .footer__title--email__inputs--input {
+    font-size: 5px;
+    padding: 2px 30px 2px 10px;
+  }
+  #footer .footer__title--email__inputs--btn {
+    height: 25px;
+    width: 25px;
+  }
+  #footer .footer__title--email__inputs--btn__icon {
+    width: 11px;
+    height: 11px;
+  }
+  #footer .footer--block__p {
+    width: 90px;
+    font-size: 5px;
+    line-height: 10px;
+  }
+  #footer .footer--block {
+    width: 310px;
+  }
+  #footer .footer--block__S--2022 {
+    font-size: 5px;
+  }
+  #footer .footer--block__S--text {
+    font-size: 17px;
+  }
+  #footer .footer--block__S {
+    width: 45px;
+  }
   #hero .hero-_text {
     font-size: 30px;
     line-height: 36px;
@@ -1080,7 +1010,6 @@
   }
 }
 @media (max-width: 361px) {
-  }
   #burgerMenu:checked~.header--burger{
     display: none;
   }
@@ -1198,8 +1127,6 @@
   #hero .hero-_sites-_image {
     padding: 10px 0;
   }
-}
-@media (max-width: 320px) {
   #header .header-_input {
     padding: 6px 32px 6px 15px;
   }
@@ -1207,4 +1134,54 @@
     left: 71px;
     top: 23px;
   }
+  #footer .footer__title-_menu--texts__text2 {
+    font-size: 8px;
+  }
+  #footer .footer__title-_menu--texts__text {
+    font-size: 8px;
+    line-height: 37px;
+  }
+  #footer .footer__title--email__text {
+    font-size: 9px;
+    width: 80px;
+    line-height: 17px;
+  }
+  #footer .footer__title--logo {
+    width: 73px;
+  }
+  #footer .footer__title-_menu--texts {
+    width: 51px;
+  }
+  #footer .footer__title--email__inputs--input {
+    font-size: 3px;
+    padding: 0 34px 0 8px;
+  }
+  #footer .footer--block__p {
+    width: 55px;
+    font-size: 3px;
+    line-height: 6px;
+  }
+  #footer .footer--block__icons--icon {
+    height: 11px;
+  }
+  #footer .footer--block__icons {
+    width: 70px;
+  }
+  #footer .footer--block__S--2022 {
+    font-size: 3px;
+  }
+  #footer .footer--block__S--text {
+    font-size: 13px;
+  }
+  #footer .footer--block__S {
+    width: 29px;
+  }
+  #footer .footer--block {
+    width: 255px;
+  }
+  #footer .footer__title--email__inputs--btn {
+    height: 21px;
+    width: 21px;
+  }
 }
+

@@ -1,46 +1,5 @@
 @import "reset";
 
-#footer {
-  .footer {
-    padding: 31px 0;
-
-    &__title {
-      @include footerStart;
-
-      &--logo {
-        width: 300px;
-      }
-
-      &--email {
-        padding: 20px 0 0 0;
-
-        &__text {
-          @include footerText;
-          width: 290px;
-        }
-
-        &__inputs {
-          @include footerEnd;
-          margin: 30px 0 0 0;
-
-          &--input {
-            @include footerP;
-            @include footerInput;
-          }
-
-          &--btn {
-            @include footerButton;
-
-            &__icon {
-              @include footerIcon;
-            }
-          }
-
-          &--btn:hover {
-            background:  #763b00;
-            cursor: pointer;
-          }
-        }
 
 #header {
   backdrop-filter: blur(27.5px);
@@ -78,336 +37,6 @@
       }
     }
 
-    &-_input {
-      border: 1px solid rgba(255, 255, 255, 0.7);
-      border-radius: 41px;
-      background: transparent;
-      padding: 17px 200px 17px 27px;
-      color: #FFFFFF;
-    }
-
-    &-_menus {
-      @include between;
-      width: 400px;
-      a {
-        color: $colorWhite;
-        @include menu;
-      }
-
-      a:nth-child(1) {
-        color: #EEB563;
-      }
-    }
-
-    &-_icons {
-      color: rgba(255, 255, 255, 0.55);
-      @include between;
-      width: 50px;
-
-    }
-    &--burger{
-      color: #FFFFFF;
-      display: none;
-    }
-    #burgerMenu{
-      display: none;
-    }
-
-  }
-}
-
-#hero{
-  .hero{
-    padding: 70px 0;
-    &-_title{
-      @include heroText;
-      font-size: 20px;
-      line-height: 24px;
-      color: #EEB563;
-      padding: 0 0 50px 0;
-      &-_img{
-        width: 192px;
-      }
-      &-_image{
-        width: 318px;
-      }
-    }
-    &-_text{
-      @include heroText;
-      font-size: 96px;
-      line-height: 116px;
-      color: #FFFFFF;
-    }
-    &-_img{
-      padding: 100px 0 200px 0;
-      @include heroBetween;
-      &-_image{
-        @include heroBetween;
-        &-_text{
-          @include hero-text;
-          text-align: right;
-          padding: 0 9px 0 0;
-        }
-        &-_ellipse{
-          width: 76px;
-          height: 76px;
-          border-radius: 50%;
-          background: #FE7E3F;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          &-_star{
-            clip-path: $clip-part;
-            width: 38px;
-            height: 38px;
-            background: #C5CFDE;
-          }
-        }
-      }
-
-      &-_img{
-        width: 346px;
-        height: 532px;
-        background: linear-gradient(354.73deg, #E4E4A8 2.81%, #5C5C56 104.28%);
-        border-radius: 209px;
-        padding: 0 162px 0 0;
-        display: flex;
-        align-items: center;
-        &-_image{
-          width: 397px;
-        }
-      }
-      &-_p{
-        @include hero-text;
-        padding: 300px 0 0 0;
-      }
-    }
-    &-_sites{
-      &-_logo{
-        @include between;
-        align-items: flex-end;
-        h1{
-          @include heroLogo;
-          font-size: 36px;
-        }
-        &-_site{
-          display: flex;
-          &-_image{
-            width: 61px;
-          }
-          &-_img{
-            display: flex;
-            justify-content: flex-start;
-            width: 289px;
-          }
-          &-_img-logo{
-            width: 50px;
-          }
-        }
-        &-_site:nth-child(4){
-
-
-        }
-      }
-      &-_logo:nth-child(1){
-        @include heroLogo;
-        font-size: 40px;
-      }
-      &-_image{
-        @include between;
-        padding: 45px 0;
-        &-_img1{
-          width: 167px;
-        }
-        &-_img2{
-          width: 223px;
-        }
-        &-_img3{
-          width: 267px;
-        }
-        &-_img4{
-          width: 152px;
-        }
-        &-_img5{
-          width: 106px;
-        }
-
-      }
-    }
-    &-_stars{
-      &-_star{
-        clip-path: $clip-part;
-        position: $position;
-        width: 22.41px;
-        height: 20.17px;
-        background: #0C7BFE;
-        transform: rotate(-45.16deg);
-        top: 172px;
-        left: 1010px;
-      }
-
-      &-_star1{
-        clip-path: $clip-part;
-        position: $position;
-        width: 35px;
-        height: 35px;
-        background: #DA9F47;
-        left: 201px;
-        top: 215px;
-
-      }
-      &-_star2{
-        clip-path: $clip-part;
-        position: $position;
-        width: 8px;
-        height: 8px;
-        background: #FFFFFF;
-        left: 1201px;
-        top: 234px;
-      }
-      &-_star3{
-        clip-path: $clip-part;
-        position: $position;
-        width: 35px;
-        height: 35px;
-        background: #FFC163;
-        left: 1101px;
-        top: 350px;
-      }
-      &-_star4{
-        clip-path: $clip-part;
-        position: $position;
-        width: 30px;
-        height: 27px;
-        background: #0C7BFE;
-        left: 266px;
-        top: 600px;
-      }
-      &-_star5{
-        clip-path: $clip-part;
-        position: $position;
-        top: 1303px;
-        left: 404px;
-        width: 51px;
-        height: 51px;
-        background: #FFC163;
-      }
-      &-_line{
-        border: $border;
-        border-radius: $border-radius;
-        position: absolute;
-        width: 21px;
-        height: 21px;
-        left: 296px;
-        top: 418px;
-      }
-      &-_line1{
-        border: $border;
-        position: absolute;
-        width: 211px;
-        height: 78px;
-        left: 1167px;
-        top: 478px;
-        border-radius: 39px;
-        transform: rotate(-90deg);
-      }
-      &-_line2{
-        border: $border;
-        position: absolute;
-        width: 380px;
-        height: 103px;
-        left: 77px;
-        top: 991px;
-        border-radius: 70px;
-        transform: rotate(-90deg);
-      }
-      &-_line3{
-        border: $border;
-        border-radius: $border-radius;
-        position: absolute;
-        width: 79px;
-        height: 76px;
-        left: 1096px;
-        top: 748px;
-      }
-      &-_line4{
-        border: $border;
-        position: absolute;
-        width: 89.44px;
-        height: 32.66px;
-        left: 360px;
-        top: 1131px;
-        border-radius: 39px;
-        transform: rotate(179.36deg);
-      }
-      &-_line5{
-        border: $border;
-        border-radius: $border-radius;
-        position: absolute;
-        width: 42px;
-        height: 40px;
-        left: 1011px;
-        top: 1220px;
-      }
-      hr:hover{
-        background: gold;
-      }
-    }
-    &-_lines{
-      hr:hover{
-        border: solid 2px gold;
-      }
-#header {
-  backdrop-filter: blur(27.5px);
-  background: rgba(38, 39, 43, 0.33);
-  position: fixed;
-  width: 100%;
-  .header {
-    @include between;
-    padding: 22px 0;
-
-    &-_logos {
-      display: flex;
-      align-items: flex-end;
-      &-_logo {
-        font-size: 32px;
-        @include textWhite;
-      }
-
-      &-_logo2 {
-        font-size: 24px;
-        @include textWhite;
-        height: 31px;
-
-      }
-      &-_star{
-        clip-path: $clip-part;
-        width: 23px;
-        height: 23px;
-        background: $backgroundStar;
-        position: absolute;
-        left: 12%;
-        top: 28px;
-      }
-      &-_star:hover{
-        background: gold;
-      }
-
-      &-_menu {
-        @include footerFlex;
-        &--texts {
-          padding: 20px 0 0 0;
-          width: 230px;
-
-          &__text {
-            @include footerText;
-            @include footerEnd;
-          }
-
-          &__text2 {
-            @include footerText;
-          }
-        }
     &-_input {
       border: 1px solid rgba(255, 255, 255, 0.7);
       border-radius: 41px;
@@ -455,7 +84,7 @@
       font-size: 20px;
       line-height: 24px;
       color: #EEB563;
-      padding: 30px 0 50px 0;
+      padding: 0 0 50px 0;
 
       &-_img {
         width: 192px;
@@ -516,43 +145,8 @@
         &-_image {
           width: 397px;
         }
-      }}
-
-    &--block {
-      @include footerFlex;
-      width: 1150px;
-      padding: 70px 0 0 0;
-
-      &__p {
-        @include footerP;
-        width: 285px;
       }
 
-      &__icons {
-        @include footerFlex;
-        width: 260px;
-
-        &--icon {
-          height: 40px;
-          color: #767676;
-        }
-        &--icon:hover {
-          color: #763b00;
-          cursor: pointer;
-        }
-      }
-
-      &__S {
-        @include footerFlex;
-        width: 130px;
-
-        &--text {
-          @include footerS
-        }
-
-        &--2022 {
-          @include footerP;
-        }
       &-_p {
         @include hero-text;
         padding: 300px 0 0 0;
@@ -759,6 +353,52 @@
     &-_lines {
       hr:hover {
         border: solid 2px gold;
+      }
+    }
+  }
+}
+
+#footer {
+  .footer {
+    padding: 31px 0;
+
+    &__title {
+      @include footerStart;
+
+      &--logo {
+        width: 300px;
+      }
+
+      &--email {
+        padding: 20px 0 0 0;
+
+        &__text {
+          @include footerText;
+          width: 290px;
+        }
+
+        &__inputs {
+          @include footerEnd;
+          margin: 30px 0 0 0;
+
+          &--input {
+            @include footerP;
+            @include footerInput;
+          }
+
+          &--btn {
+            @include footerButton;
+
+            &__icon {
+              @include footerIcon;
+            }
+          }
+
+          &--btn:hover {
+            background: #763b00;
+            cursor: pointer;
+          }
+        }
       }
     }
   }
