@@ -129,11 +129,6 @@ $border-radius: 50%;
 @mixin footerEnd{
   display: flex;
   justify-content: flex-end;
-  justify-content: space-between;
-  font-family: 'Inter',sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-  color: #F4F4F4;
 }
 @mixin line{
   width: 284px;
